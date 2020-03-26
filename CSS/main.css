@@ -9,7 +9,8 @@ nav.navbar{
     margin:0 20px;
 }
 nav.navbar .navbar-brand{
-    color:aqua;
+    color:#5db0fe;
+    font-weight:700;
     font-size: 35px;
 }
 nav.navbar .navbar-nav{
@@ -32,22 +33,45 @@ button.btn{
     font-size:15px;
     letter-spacing:.05em;
 }
-section.content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color:lightskyblue;
-    padding:40px;
+
+/****section1*******/
+section.section-a .container{
+    background-color: #baddfd;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 400px;
+    padding: 50px 50px;
 }
-section.content div button{
+section.section-a .container .text{
+    font-family: 'Mada', sans-serif;
+    font-weight: 400;
+    line-height: 1.9em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+section.section-a .container .text h1{
+    margin-bottom:20px;
+    font-size:40px;
+    text-transform: capitalize;
+    font-weight:bolder;
+}
+section.section-a .container .text p{
+    line-height:30px;
+    font-size:19px;
+    font-weight:500;
+}
+section.section-a .container .text button{
     color:#fff;
-    text-align:center;
+    background-color: #1a87ec;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align:center; 
 }
-section.content div .main-image{
+section.section-a .container .main-image{
     width:400px;
-    height:300px;
+    height:400px;
 }
-section.content div .main-image img{
+section.section-a .container .main-image img{
     max-width:100%;
     height:auto;
     display: block;
