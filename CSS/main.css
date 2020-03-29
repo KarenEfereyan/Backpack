@@ -12,6 +12,8 @@ nav.navbar .navbar-brand{
     color:#5db0fe;
     font-weight:700;
     font-size: 35px;
+    margin-left:90px;
+    font-family:'Mada', sans-serif;
 }
 nav.navbar .navbar-nav{
     padding:20px;
@@ -34,13 +36,15 @@ button.btn{
     letter-spacing:.05em;
 }
 
-/****section1*******/
+/****sectionA*******/
 section.section-a .container{
     background-color: #baddfd;
     margin-top: 30px;
     border-radius: 20px;
     height: 400px;
     padding: 50px 50px;
+    display:flex;
+    justify-content: space-around;
 }
 section.section-a .container .text{
     font-family: 'Mada', sans-serif;
@@ -76,32 +80,301 @@ section.section-a .container .main-image img{
     height:auto;
     display: block;
 }
-/* section.divisions {
+
+/*******sectionB**********/
+
+section.section-b .container{
+    margin:50px 0;
+}
+
+section.section-b .container button{
+    font-size:30px;
+    color:#1a87ec;
+    text-transform: capitalize;
+    border:2px solid #1a87ec;
+    padding:30px 80px;
+    text-align:center;
+    font-family: 'Mada', monospace;
+    border-radius: 10px;
+    transform:rotate(-90deg);
+    position: relative;
+    top:180px;
+}
+section.section-b .align{
+    padding:30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position:relative;
+    left:100px;
+   
+}
+section.section-b .card-vr{
+    /* background-color: #e0719e; 
+     width:100px;
+     height:auto;*/
+     background-color:hotpink;
+     padding-right:5px;
+    
+}
+section.section-b .card-mr{
+    background-color: #f6e049;
+}
+section.section-b .card-fg{
+    background-color: #7fd6c2;
+}
+section.section-b .card-ar{
+    background-color: #aac6fc;
+}
+section.section-b .text-content{
+    padding-left:20px;
+}
+section.section-b .text-content h1{
+    font-size: 20px;
+    font-weight: 750;
+    text-transform: capitalize;
+}
+section.section-b .text-content p{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+}
+section.section-b img{
+    height:150px;
+    width:150px;
+    border:2px solid #fff;
+    border-radius: 20px;
+}
+section.section-b .second{
+    margin-top:20px;
+}
+section.section-b .link{
+    text-transform: capitalize;
+    font-weight:750;
+    font-size:22px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px 90px;
+}
+section.section-b .link::after{
+    content: '>>';
+    color:#5db0fe;
+}
+
+/*******Section c******/
+section.section-c{
+    margin:50px 0px;
+}
+section.section-c .section-header{
     display:flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-} */
-section.divisions .virtual img{
-    width:100px;
+    justify-content: center;
+}
+section.section-c .section-header h1{
+    text-align:center;
+    font-weight:600;
+    font-size: 50px;
+    color: #1a87ec;
+    text-transform: capitalize;
+    font-family:sans-serif;
+}
+section.section-c .section-header h1:after{
+    content:'?';
+    color: #1a87ec;
+   
+}
+section.section-c .whys{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+section.section-c .whys .why-img{
+    height: auto;
+    width: 100%;
+    margin-right: 15px;
+}
+section.section-c .whys .why-img img{
+    height: 50px;
+    max-width: 100%;
+}
+section.section-c .whys .why-content{
+    margin:0 20px;
+    font-family:'Mada', sans-serif
+}
+section.section-c .whys .why-content .why-title{
+    margin:15px 0;
+}
+section.section-c .whys .why-content .why-title h3{
+    font-size:18px;
+    font-weight:700;
+    text-transform: capitalize;
+
+}
+section.section-c .whys .why-content .why-info{
+    margin-bottom:0;
+}
+section.section-c .whys .why-content .why-info p{
+    text-align:justify;
+    font-size:15px;
+    font-weight:600;
+    line-height:1.5em;
+    color:#000;
+}
+/*******.section-d*******/
+section.section-d{
+    margin-top:190px;
+}
+section.section-d .container{
+    height:350px;
+    background-color:#aac6fc;
+    border-radius: 0px 0px 50px 50px;
+    font-family: 'Monospace',sans-serif;
+}
+section.section-d .container .learn-text{
+    margin:20px 35px;
+    font-weight:800;
+}
+section.section-d .container .learn-text h1{
+    font-size:40px;
+    font-weight:900;
+    text-transform: capitalize;
+}
+section.section-d .container .learn-text h1:after{
+    content:'!';
+}
+section.section-d .container .learn-text p{
+    font-weight:700;
+    line-height:1.7em;
+    text-align:justify;
+    color:#000;
+    font-size:17px;
+    margin-top:20px;
+}
+section.section-d .container .cta{
+    margin-left:35px;
+}
+section.section-d .container .cta h4{
+    text-transform: capitalize;
+    font-weight:800;
+    margin-top:35px;
+}
+section.section-d .container .download-icon{
+    margin-left:35px;
+    display:flex;
     height:auto;
-    display: block;
+    width:100%;
 }
-section.divisions .virtual{
-    display:flex;
-    width:30%;
-    background-color:pink;
-    border-radius:20%;
-
+section.section-d .container .download-icon img{
+    height: 50px;
+    max-width: 100%;
 }
-@media only screen and (max-width:480px){
-    /* section.content{
-        display: flex;
-        flex-direction: column;
-        flex-wrap:wrap;
-         justify-content:space-between;
-    }*/
-    section.content div button{
-        color:orange;
-    }
 
+section.section-d .container .phone-app{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -10em;
+}
+section.section-d .container .phone-app .img-1{
+    position: relative;
+    top: -11em;
+}
+section.section-d .container .phone-app .img-2{
+    position: relative;
+    left: -25em;
+}
+
+/*********section e, footer*****/
+section.footer{
+    margin-top:100px;
+}
+section.footer .container-fluid{
+    padding-top:50px;
+    height:500px;
+    background-color:#052c4d;
+}
+section.footer .container-fluid .footer-poster {
+    margin-left: 30px;
+    width: 35em;
+}
+section.footer .container-fluid .navbar-brand{
+    font-family: 'Lemon', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: #5db0fe;
+    margin-bottom: 10px;
+}
+section.footer .footer-form h5 {
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 40px;
+}
+section.footer .footer-form form {
+    margin-bottom: 40px;
+}
+section.footer .footer-form form input {
+    width: 15em;
+    height: 3em;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+}
+section.footer .footer-form form input::placeholder {
+    font-weight: 600;
+    text-align: left;
+    color: #05253f;
+}
+
+section.footer .footer-form form button {
+    height: 3em;
+    width: 5em;
+    font-weight: 500;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+section.footer .footer-img img {
+    height: 50px;
+    max-width: 100%;
+}
+
+section.footer .footer-img img:nth-child(1) {
+    margin-bottom: 15px;
+    width: 168px;
+}
+section.footer .categories {
+    width: 14em;
+    text-align: left;
+    color: #fff;
+}
+
+section.footer .categories h1 {
+    font-size: 25px;
+    font-family: monospace, sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+section.footer .categories ul {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+section.footer .categories ul li {
+    margin-bottom: 7px;
+    font-weight: 300;
+}
+
+section.footer .categories ul li a {
+    text-decoration: none;
+    color: rgb(228, 225, 225);
+    text-transform: capitalize;
+}
+
+section.footer .categories ul li a:hover {
+    color: #c2c1c1;
+    font-size: 15px;
+}
+section.footer .rule hr {
+    border: 1px solid #fff;
 }
